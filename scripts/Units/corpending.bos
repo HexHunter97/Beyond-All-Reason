@@ -21,6 +21,10 @@ lua_UnitScriptDecal(lightIndex, xpos,zpos, heading)
 {
 	return 0;
 }
+lua_UnitScriptLight(lightIndex, count) 
+{
+	return 0;
+}
 #define SIG_WALK 2
 Walk() {//Created by https://github.com/Beherith/Skeletor_S3O from N:\animations\corjugg_anim_walk_v2.blend 
 	set-signal-mask SIG_WALK;
